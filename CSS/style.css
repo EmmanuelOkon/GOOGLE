@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+
+a, p {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.dots {
+    height: 20px;
+}
+
+.user {
+    width: 15%;
+    border-radius: 50%;
+}
+
+main {
+    width: 50%;
+    margin: 6.5em auto;
+    text-align: center;
+}
+
+.search {
+    outline: none;
+}
+
+input[type=text] {
+    position: relative;
+}
+
+.icon {
+    z-index: 1;
+    position: relative;
+    left: 70px;
+    top: 2em;
+}
+
+.icon2 {
+    z-index: 1;
+    position: relative;
+    left: 33em;
+    top: 2em;
+}
+
+.assets {
+    bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 10%;
+}
+
+.assets img {
+    height: 20px;
+    /* bottom: 20px;
+    left: 20px; */
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.btns {
+    margin-top: 1em;
+}
+
+.btns button {
+    padding: 10px;
+    border: none;
+}
+
+.btns p {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.lang {
+    color: blue;
+    cursor: pointer;
+}
+
+.lang:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(240, 235, 235);
+}
+
+.footer-top {
+    padding: 1em;
+}
+
+
+.footer-bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.left a {
+    margin-right: 1em;
+}
+
+.right a {
+    margin-right: 1em;
+}
